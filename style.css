@@ -1,0 +1,49 @@
+body{
+  background-color: white;
+  transition: 0.5s linear all;
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  margin-top: 40px;
+  text-align: center;
+  font:'helvetica';
+  font-size: 30px;
+  font-weight: 100;
+  color: #907163;
+}
+
+h3 {
+  text-align: center;
+  font:'helvetica';
+  font-size: 20px;
+  font-weight: 100;
+  color: #907163;
+}
+.parent {
+  text-align: center;
+}
+
+.interactable {
+  display: inline-block;
+  transition: 1s linear all;
+  vertical-align: middle;
+  width:30%;
+  height:500px;
+  border: 2px solid #fc4445;
+  border-radius: 30px;
+}
+
+#interactableOne {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top:8%;
+
+}
+
+#interactableTwo {
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top:8%;
+}
